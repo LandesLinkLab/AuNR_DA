@@ -1,0 +1,58 @@
+#LINES
+lines.linewidth : 3
+lines.markersize : 10
+
+#FONT
+#font.family : Times New Roman
+font.weight : bold
+
+#LATEX
+mathtext.fontset : stix
+
+#AXES
+axes.facecolor : white
+axes.edgecolor : black
+axes.linewidth : 2
+axes.grid : False
+axes.labelpad : 2
+axes.labelweight : bold
+axes.titleweight : bold
+axes.titlesize : 30
+axes.labelsize : 20
+axes.formatter.limits : -5, 5
+axes.formatter.use_mathtext : True
+
+#TICKS
+xtick.top : False
+ytick.right : False
+xtick.bottom : True
+ytick.left : True
+xtick.direction : in
+ytick.direction : in
+xtick.major.width : 2
+ytick.major.width : 2
+xtick.major.size : 5
+ytick.major.size : 5
+xtick.labelsize : 24
+ytick.labelsize : 24
+
+#LEGEND
+legend.loc : best
+legend.fancybox : False
+legend.framealpha : 1.0
+legend.edgecolor : black
+
+#FIGURE
+figure.figsize : 8, 6
+# this should be 300 for publication
+figure.dpi : 100
+figure.autolayout: True
+
+#SAVING FIGURES
+savefig.bbox : tight
+savefig.pad_inches : 0.1
+savefig.transparent: False
+
+
+
+
